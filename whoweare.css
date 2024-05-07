@@ -1,0 +1,41 @@
+.whoweare{
+    margin: 65px 0 0 0;
+}
+
+.whoweare h2{
+    margin-left: 65px;
+}
+
+.whoweare p{
+    margin-left: 65px;
+}
+
+.whoweare h3{
+    padding: 10px 10px 10px 65px;
+
+    height: 30px;
+    background-color: pink;     
+}
+
+.img-transition{
+    padding: 10px 0 65px 65px;
+    margin-top: -25px;
+    background-color: pink;
+}
+.img-transition img{
+    width: 10%;
+    min-height: 100%;
+    border: 2px solid whitesmoke;
+    /* display: block; */ 
+    /* default value untuk display adalah inline makanya dia langsung ada di dalam satu baris */
+    filter: saturated(0%);
+    object-fit: cover;
+    border-radius: 12px;
+    transition: all ease 0.4s;
+    cursor: pointer;
+}
+
+.img-transition img:hover {
+    transition: saturated(100%);
+    width: 20%;
+}

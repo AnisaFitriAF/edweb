@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Education Website </title>
+</head>
+
+<body>
+    <section class="header">
+        <ul>
+            <li><img src="iklan.png" alt="logo"></li>
+            <li><a class="active" href="">Home</a></li>
+            <li><a href="material.html">Material</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+            <li><a href="">Contact</a></li>
+            <li><button>Daftar Sekarang</button></li>
+        </ul>
+    </section>
+
+    <section class="fotobar">
+        <!-- <img src="landscapebg.png"> -->
+        
+        <h1>Bimbel Online dan Offline yang Selalu Siap Menemani Anak Anda untuk Terus Belajar Meraih Masa Depan yang Cerah</h1>
+        
+        <form class="form-section">
+            <label>Diskon special untuk kamu dengan isi nomor HP sekarang</label><br>
+            <input type="tel" id="phone" name="phone" minlength="9" maxlength="16" pattern="[+][6][2][0-9]{9-16}" placeholder="contoh: +628x xxxx xxxx" required value="+62">
+            <button type="submit" id="btnDiskon" class="button-Diskon-submit">Dapatkan Diskon</button>
+        </form>
+        <!-- <img src="iklan.png"> -->
+
+
+    </section>
+
+    <section class="main-content">
+        <ul>
+            <li><a href="">Pre-School</a></li>
+            <li><a href="">Elementary</a></li>
+            <li><a href="">Primary</a></li>
+            <li><a href="">Senior</a></li>
+        </ul>
+
+    </section>
+
+    <section class="best-seller">
+        <h1>Paket Populer 2024</h1>
+        <ul>
+            <li><img src="iklan.png"></li>
+            <li><img src="iklan.png"></li>
+            <li><img src="iklan.png"></li>
+            <li><img src="iklan.png"></li>
+            <li><img src="iklan.png"></li>
+            <li>Kinergaten </li>
+            <li>Elementary</li>
+            <li>Primary</li>
+            <li>Senior</li>
+            <li>University Prep</li>
+            <li><button>Beli Paket</button></li>
+            <li><button>Beli Paket</button></li>
+            <li><button>Beli Paket</button></li>
+            <li><button>Beli Paket</button></li>
+            <li><button>Beli Paket</button></li>
+            <li id="p">Pelajaran matematika</li>
+            <li id="p">Pelajaran matematika</li>
+            <li id="p">Pelajaran matematika</li>
+            <li id="p">Pelajaran matematika</li>
+            <li id="p">Pelajaran matematika</li>
+            <li id="p1">Matematika K-2</li>
+            <li id="p1">Matematika kelas 3</li>
+            <li id="p1">Matematika kelas 7</li>
+            <li id="p1">Matematika Kelas 11</li>
+            <li id="p1">Persiapan UTBK</li>
+            <li id="p2">Memahami konsep perhitungan dasar matematika<br> Memahami konsep perhitungan dasar matematika</li>
+            <li id="p2">Memahami konsep perhitungan dasar matematika SD <br> Memahami konsep perhitungan dasar matematika</li>
+            <li id="p2">Memahami konsep perhitungan dasar matematika SMP <br> Memahami konsep perhitungan dasar matematika</li>
+            <li id="p2">Memahami konsep perhitungan dasar matematika SMA <br> Memahami konsep perhitungan dasar matematika</li>
+            <li id="p2">Memahami konsep perhitungan matematika untuk ujian masuk kuliah <br> Memahami konsep perhitungan dasar matematika</li>
+            <li><a href="">lihat selengkapnya...</a></li>
+            <li><a href="">lihat selengkapnya...</a></li>
+            <li><a href="">lihat selengkapnya...</a></li>
+            <li><a href="">lihat selengkapnya...</a></li>
+            <li><a href="">lihat selengkapnya...</a></li>
+        </ul>
+    </section>
+
+   <section class="video-iklan">
+        <h1>Coba GRATIS kelas Teman Belajar sekarang!</h1>
+        <div id="video-gratis">
+            <video src="video-c.mp4"></video>
+            <p>Yuk ikuti keseruan kelasnya!</p>
+            <button>Gabung Kelas</button>
+        </div>
+        <!-- <div id="video-bawah">
+            <p>Yuk ikuti keseruan kelasnya!</p>
+            <button>Gabung Kelas</button>
+        </div> -->
+   </section>
+    
+   <div class="interactive-js">
+        <div class="Slide">
+            <div class="slideNumber">1/3</div>
+            <img src="slide(1).jpg" style="width:70%;">
+            <div class="termSlide">*syarat dan ketentuan berlaku</div>
+        </div>
+        <div class="Slide">
+            <div class="slideNumber">2/3</div>
+            <img src="slide(2).jpg" style="width:70%;">
+            <div class="termSlide">*syarat dan ketentuan berlaku</div>
+        </div>
+        <div class="Slide">
+            <div class="slideNumber">3/3</div>
+            <img src="slide(3).webp" style="width:70%;">
+            <div class="termSlide">*syarat dan ketentuan berlaku</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+        <a class="next" onclick="plusSlides(1)">&#10095</a>
+
+        <div class="SlideDot" style="text-align: center;">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currnetSlide(2)"></span>
+            <span class="dot" onclick="currnetSlide(3)"></span>
+        </div>
+
+   </div>
+
+   <div class="formulir">
+        <form name="myForm" action="" onsubmit="returnValidateForm()" methode="post">
+        <div class="baris">
+            <div class="kolom-label">
+                <label for="fname">First Name</label>
+            </div>
+            <div class="kolom-input">
+                <input type="text" id="fname" name="firstname" placeholder="your name">
+            </div>
+        </div>
+        <div class="baris">
+            <div class="kolom-label">
+                <label for="lname">Last Name</label>
+            </div>
+            <div class="kolom-input">
+                <input type="text" id="lname" name="lastname" placeholder="your last name">
+            </div>
+        </div>
+        <div class="baris">
+            <div class="kolom-label"><label for="country">Country</label></div>
+            <div class="kolom-input">
+                <select id="country" name="country">
+                    <option value="indonesia">Indonesia</option>
+                    <option value="inggris">Inggris</option>
+                    <option value="india">India</option>
+                </select>
+            </div>
+        </div>
+        <div class="baris">
+            <div class="kolom-label"><label for="subject">Subject</label></div>
+            <div class="kolom-input">
+                <textarea id="subject" name="subject" placeholder="write something . . ." style="height: 200px;"></textarea>
+            </div>
+        </div>
+        <div class="baris">
+            <input type="submit" value="submit">
+        </div>
+        </form>
+
+   </div>
+
+   <div class="footer">
+        <div id="content">
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#eed3d9" fill-opacity="1" d="M0,160L15,149.3C30,139,60,117,90,112C120,107,150,117,180,144C210,171,240,213,270,202.7C300,192,330,128,360,122.7C390,117,420,171,450,208C480,245,510,267,540,277.3C570,288,600,288,630,266.7C660,245,690,203,720,197.3C750,192,780,224,810,202.7C840,181,870,107,900,101.3C930,96,960,160,990,202.7C1020,245,1050,267,1080,234.7C1110,203,1140,117,1170,101.3C1200,85,1230,139,1260,144C1290,149,1320,107,1350,85.3C1380,64,1410,64,1425,64L1440,64L1440,320L1425,320C1410,320,1380,320,1350,320C1320,320,1290,320,1260,320C1230,320,1200,320,1170,320C1140,320,1110,320,1080,320C1050,320,1020,320,990,320C960,320,930,320,900,320C870,320,840,320,810,320C780,320,750,320,720,320C690,320,660,320,630,320C600,320,570,320,540,320C510,320,480,320,450,320C420,320,390,320,360,320C330,320,300,320,270,320C240,320,210,320,180,320C150,320,120,320,90,320C60,320,30,320,15,320L0,320Z"></path></svg>
+   <!-- get the footer waves from https://getwaves.io/  -->
+    
+   </div>
+   <script src="script.js"></script>
+
+</body>
+</html>

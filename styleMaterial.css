@@ -1,0 +1,145 @@
+
+.bgimage{
+    margin: 55px 0 0 0;
+    padding: 80px 0 0 65px;
+    background-color: black;
+    color: wheat;
+    font-size: 24px;
+    height: 300px;
+}
+
+.bgimage h1{
+    width: 50%;
+}
+
+/* section .pilihan-material akan muncul tepat dibawah header */
+/* olehkarena itu berikan margin agar section tidak tertutup oleh header */
+.pilihan-material {
+    margin: -100px 10px 0 20px;
+    padding: 30px 10px 100px 65px;
+    background-color: rgb(169, 198, 210);
+    border-radius: 10px;
+}
+
+/* pada DIV display defautlnya adalah BLOCK */
+/* sehingga setiap elemen DIV akan memenuhin 1 baris display */
+/* INLINE bisa digunakan untuk membuat elemen div berada dalam 1 baris namun, ukurannya tidak bisa dirubah2 */
+/* Jika ingin merubah ukuran dengan display inline, gunakan INLINE-BLOCK */
+.pilihan-material .math{
+    display: inline-block;
+    margin: 2% 1% 0 0;
+    width: 32%;
+    background-color: pink;
+    border-radius: 10px;
+    box-shadow: 0 1px 1px 1px rgba(0.8,0.9,0.8,0.5);
+}
+
+.math img{
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    box-shadow: 0 0 1px 0 rgba(0,0,0.2,2);
+
+}
+
+.math h3{
+    /* text-align: center; */
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0 15px;
+}
+
+.math p{
+    padding: 0 10px 10px 12px ;
+    text-align: justify;
+}
+
+.math button{
+    padding: 10px;
+    margin: 15px;
+    width: 90%;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid gray;
+    /* text-align: center; */
+}
+
+
+/* .pilihan-material h3{
+    display: block;
+    width: 280px;
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+} */
+
+
+.pilihan-material1{
+    margin-top: 30px;
+    margin-left: 65px;
+}
+
+.math{
+    background-color: brown;
+}
+
+/* pada SPAN display defaulnya adalah INLINE dengan width dan length (auto x auto)px*/
+/* itulah yang membuat beberapa elemen SPAN berada dalam 1 baris yg sama */
+/* untuk membuat tampilan span memenuhi 1 baris dengan 1 kontent bisa gunakan display: block; */
+/* gunakan INLINE-BLOCK untuk mengubah ukuran span */
+/* .pilihan-material1 span{
+    display: inline-block;
+    width: 280px;
+    text-align: center;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 200;
+    font-style: bolder;
+} */
+
+
+.welcoming{
+    background-color: aliceblue;
+    margin: auto 65px;
+    padding: 10px 30px;
+    border-radius: 30px;
+
+}
+
+.welcoming h3, p{
+    margin: 1% 2%;
+}
+
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  float: right;
+}
+
+.material-symbols-outlined:hover{
+    background-color: rgb(255, 255, 255);
+    padding: 0.3%;
+    border-radius: 50%;
+}
+
+.welcoming button{
+    display: inline-block;
+    padding: 15px 10px;
+    width: 47%;
+    border-radius: 20px;
+    margin: 0.5% 1%;
+    border: 2px solid whitesmoke;
+    background-color: white;
+    font-weight: bolder;
+    transition-duration: 2s;
+}
+
+.welcoming button:hover{
+    background-color: rgba(44, 200, 248, 0.331);
+}
+
